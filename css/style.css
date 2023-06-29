@@ -544,6 +544,11 @@ div.feature-div {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -576,12 +581,20 @@ div.feature-div {
   max-width: 375px;
 }
 
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .place-content-center {
   place-content: center;
 }
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .bg-VeryLightGray {
@@ -632,26 +645,86 @@ div.feature-div {
   box-shadow: 0px 18px 15px 0px #d8e2ee;
 }
 
-.feature-div:nth-child(2){
+.feature-div:nth-child(2) {
   border-top: 4px solid hsl(180, 62%, 55%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.feature-div:nth-child(3){
+.feature-div:nth-child(3) {
   border-top: 4px solid hsl(0, 78%, 62%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.feature-div:nth-child(4){
+.feature-div:nth-child(4) {
   border-top: 4px solid hsl(34, 97%, 64%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.feature-div:nth-child(5){
+.feature-div:nth-child(5) {
   border-top: 4px solid hsl(212, 86%, 64%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+/* troublshooting css*/
+
+@media (min-width: 1024px) {
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .lg\:col-end-3 {
+    grid-column-end: 3;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .lg\:row-end-3 {
+    grid-row-end: 3;
+  }
+
+  .lg\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .lg\:mt-\[-11rem\] {
+    margin-top: -11rem;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:min-w-\[950px\] {
+    min-width: 950px;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:text-center {
+    text-align: center;
+  }
 }

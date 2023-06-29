@@ -3,41 +3,42 @@
 @tailwind utilities;
 
 @layer base {
-    h3 {
-        @apply text-xl font-semibold mb-2 text-VeryDarkBlue
-    }
+  h3 {
+    @apply text-xl font-semibold mb-2 text-VeryDarkBlue;
+  }
 
-    p.description {
-        @apply text-GrayishBlue mb-10 font-medium text-[0.8rem]
-    }
+  p.description {
+    @apply text-GrayishBlue mb-10 font-medium text-[0.8rem];
+  }
 
-    div.feature-div {
-        @apply  mb-16 p-8
-        
-    }
+  div.feature-div {
+    @apply mb-16 p-8;
+  }
 }
 
 div.feature-div {
-    box-shadow: 0px 18px 15px 0px #d8e2ee;
+  box-shadow: 0px 18px 15px 0px #d8e2ee;
 }
 
-.feature-div:nth-child(2){
-    border-top: 4px solid hsl(180, 62%, 55%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.feature-div:nth-child(2) {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.feature-div:nth-child(3){
-    border-top: 4px solid hsl(0, 78%, 62%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.feature-div:nth-child(3) {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.feature-div:nth-child(4){
-    border-top: 4px solid hsl(34, 97%, 64%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.feature-div:nth-child(4) {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.feature-div:nth-child(5){
-    border-top: 4px solid hsl(212, 86%, 64%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.feature-div:nth-child(5) {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
+
+/* troublshooting css*/

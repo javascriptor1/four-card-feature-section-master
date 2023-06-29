@@ -34,28 +34,32 @@
   <body
     class="grid place-content-center min-h-screen text-[0.9375rem] font-serif bg-VeryLightGray"
   >
-    <main class="min-w-[280px] max-w-[375px] p-8">
+    <main
+      class="min-w-[280px] max-w-[375px] lg:min-w-[950px] p-8 lg:grid lg:grid-cols-3 mx-auto gap-8 lg:items-start"
+    >
       <!-- ----------- header div here --------------------- -->
-      <div>
+      <div class="lg:col-span-3 lg:text-center mx-auto max-w-[500px]">
         <h1 class="text-2xl font-light text-VeryDarkBlue text-center mb-2">
           Reliable, efficient delivery
         </h1>
         <h2 class="text-2xl text-center font-semibold text-VeryDarkBlue mb-8">
           Powered by Technology
         </h2>
-        <p class="text-GrayishBlue mb-20">
+        <p class="text-GrayishBlue mb-20 lg:mb-6">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </div>
 
       <!-- ------------------ first div here --------------------- -->
-      <div class="feature-div">
+      <div class="feature-div lg:mt-28">
         <h3>Supervisor</h3>
         <p class="description">
           Monitors activity to identify project roadblocks
         </p>
-        <div class="flex justify-end"><img src="images/icon-supervisor.svg" alt="supervisor" /></div>
+        <div class="flex justify-end">
+          <img src="images/icon-supervisor.svg" alt="supervisor" />
+        </div>
       </div>
       <!-- ------------------ second div here --------------------- -->
       <div class="feature-div">
@@ -63,23 +67,31 @@
         <p class="description">
           Scans our talent network to create the optimal team for your project
         </p>
-        <div class="flex justify-end" ><img src="images/icon-team-builder.svg" alt="team builder" /></div>
+        <div class="flex justify-end">
+          <img src="images/icon-team-builder.svg" alt="team builder" />
+        </div>
       </div>
       <!-- ------------------ third div here --------------------- -->
-      <div class="feature-div">
+      <div class="feature-div lg:col-start-2 lg:col-end-3 lg:mt-[-11rem]">
         <h3>Karma</h3>
         <p class="description">
           Regularly evaluates our talent to ensure quality
         </p>
-        <div class="flex justify-end"><img src="images/icon-karma.svg" alt="karma" /></div>
+        <div class="flex justify-end">
+          <img src="images/icon-karma.svg" alt="karma" />
+        </div>
       </div>
       <!-- ------------------ forth div here --------------------- -->
-      <div class="feature-div">
+      <div
+        class="feature-div lg:row-start-2 lg:row-end-3 lg:col-start-3 lg:mt-28"
+      >
         <h3>Calculator</h3>
         <p class="description">
           Uses data from past projects to provide better delivery estimates
         </p>
-        <div class="flex justify-end"><img src="images/icon-calculator.svg" alt="calculator" /></div>
+        <div class="flex justify-end">
+          <img src="images/icon-calculator.svg" alt="calculator" />
+        </div>
       </div>
     </main>
 
