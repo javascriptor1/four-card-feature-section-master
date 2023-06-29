@@ -11,7 +11,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Four card feature section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -25,21 +31,64 @@
       }
     </style>
   </head>
-  <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+  <body
+    class="grid place-content-center min-h-screen text-[0.9375rem] font-serif bg-VeryLightGray"
+  >
+    <main class="min-w-[280px] max-w-[375px] p-8">
+      <!-- ----------- header div here --------------------- -->
+      <div>
+        <h1 class="text-2xl font-light text-VeryDarkBlue text-center mb-2">
+          Reliable, efficient delivery
+        </h1>
+        <h2 class="text-2xl text-center font-semibold text-VeryDarkBlue mb-8">
+          Powered by Technology
+        </h2>
+        <p class="text-GrayishBlue mb-20">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+
+      <!-- ------------------ first div here --------------------- -->
+      <div class="feature-div">
+        <h3>Supervisor</h3>
+        <p class="description">
+          Monitors activity to identify project roadblocks
+        </p>
+        <div class="flex justify-end"><img src="images/icon-supervisor.svg" alt="supervisor" /></div>
+      </div>
+      <!-- ------------------ second div here --------------------- -->
+      <div class="feature-div">
+        <h3>Team Builder</h3>
+        <p class="description">
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <div class="flex justify-end" ><img src="images/icon-team-builder.svg" alt="team builder" /></div>
+      </div>
+      <!-- ------------------ third div here --------------------- -->
+      <div class="feature-div">
+        <h3>Karma</h3>
+        <p class="description">
+          Regularly evaluates our talent to ensure quality
+        </p>
+        <div class="flex justify-end"><img src="images/icon-karma.svg" alt="karma" /></div>
+      </div>
+      <!-- ------------------ forth div here --------------------- -->
+      <div class="feature-div">
+        <h3>Calculator</h3>
+        <p class="description">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <div class="flex justify-end"><img src="images/icon-calculator.svg" alt="calculator" /></div>
+      </div>
+    </main>
 
     <footer>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">MKF</a>
       </p>
     </footer>
   </body>

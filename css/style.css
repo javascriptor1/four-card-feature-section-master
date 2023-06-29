@@ -422,6 +422,28 @@ video {
   display: none;
 }
 
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: hsl(234 12% 34% / var(--tw-text-opacity));
+}
+
+p.description {
+  margin-bottom: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: hsl(229 6% 66% / var(--tw-text-opacity));
+}
+
+div.feature-div {
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -522,7 +544,114 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.min-w-\[280px\] {
+  min-width: 280px;
+}
+
+.max-w-\[375px\] {
+  max-width: 375px;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.bg-VeryLightGray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-serif {
+  font-family: Poppins, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[0\.9375rem\] {
+  font-size: 0.9375rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-GrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(229 6% 66% / var(--tw-text-opacity));
+}
+
+.text-VeryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(234 12% 34% / var(--tw-text-opacity));
+}
+
+div.feature-div {
+  box-shadow: 0px 18px 15px 0px #d8e2ee;
+}
+
+.feature-div:nth-child(2){
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.feature-div:nth-child(3){
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.feature-div:nth-child(4){
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.feature-div:nth-child(5){
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
