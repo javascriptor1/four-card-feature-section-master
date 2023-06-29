@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "netlify-cli": "^15.7.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "four-card-feature-section-master",
+  "description": "This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
